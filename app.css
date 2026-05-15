@@ -11,3 +11,18 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+body {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 20rem;
+}
