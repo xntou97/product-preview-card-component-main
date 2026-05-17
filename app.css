@@ -56,7 +56,7 @@ button,
 
 h1,
 data {
-    font-family: 'Fraunces', 'Times New Roman';
+    font-family: 'Fraunces', 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -139,21 +139,21 @@ button {
 
     .content_wrapper {
         flex-direction: row;
-        max-height: 30rem;
+        max-height: 28rem;
     }
 
     .product_desktop {
         display: flex;
         height: 100%;
         max-width: 684px;
-        max-height: 30rem;
+        max-height: 28rem;
         border-radius: 10px 0 0 10px;
         object-fit: contain;
     }
 
     .img_wrapper {
         max-width: 684px;
-        max-height: 30rem;
+        max-height: 28rem;
         height: 100%;
         object-fit: contain;
 
