@@ -3,26 +3,118 @@
     padding: 0;
 }
 
-.attribution {
+/* .attribution {
     font-size: 0.6875rem;
     text-align: center;
+    position: relative;
+    top: 5vh;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
+} */
 
 body {
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .content_wrapper {
+    background-color: white;
+    border-radius: 10px;
+    align-self: center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     max-width: 20rem;
+}
+
+.img_wrapper {
+    align-self: center;
+    max-width: 684px;
+    max-height: 700px;
+}
+
+.product_mobile {
+    align-self: center;
+    width: 100%;
+    max-width: 684px;
+    max-height: 700px;
+    border-radius: 10px 10px 0 0;
+}
+
+h2,
+p,
+button,
+.starting_price {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+data {
+    font-family: 'Fraunces', 'Times New Roman';
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 1rem 0 1rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.2rem;
+}
+
+h1 {
+    margin: 0 0 1rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    margin: 0 1.7rem 1rem 2rem;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+}
+
+span {
+    margin: 0 1rem 1rem 2rem;
+    display: inline;
+}
+
+.final_price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.starting_price {
+    color: hsl(228, 12%, 48%);
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    position: relative;
+    bottom: 0.5rem;
+    left: 1rem;
+}
+
+button {
+    align-self: center;
+    background-color: hsl(158, 36%, 37%);
+    border: 1px solid hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color: white;
+    max-width: 18rem;
+    padding: 0.8rem 5.5rem 0.8rem 5.5rem;
+    margin: 0.5rem 0 1.5rem 0;
+    font-weight: 700;
+    display: flex;
+}
+
+.cart_icon {
+    position: relative;
+    right: 0.5rem;
 }
